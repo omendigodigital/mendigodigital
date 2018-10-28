@@ -150,7 +150,12 @@ p{font-size: 14px!important;}
   .comentarios{
 
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2 1fr);
+    align-items: center;
+    grid-gap:1rem;
+    padding: 2px;
+    margin-left: 5px;
+
 
 
 
