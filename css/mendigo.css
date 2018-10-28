@@ -121,7 +121,7 @@ p{font-size: 14px!important;}
       background-color:#dff9fb;
       align-content: center;
       padding: 10px;
-      border:1px solid #000;
+      /*border:1px solid #000;*/
 
 
     }
@@ -140,6 +140,18 @@ p{font-size: 14px!important;}
       background-color: red;
 
     }
+
+
+
+
+  }
+
+
+
+  .comentarios{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 
 
 
