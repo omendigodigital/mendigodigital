@@ -18,6 +18,15 @@ background-color: #fff;
 
 }
 
+.img-mendigo{
+
+  width: 300px!important;
+  height: 300px!important;
+  align-items:center!important;
+
+
+}
+
 
   .wrapper div:nth-child(even){
 
@@ -35,14 +44,14 @@ background-color: #fff;
   .topo{
 
     display: grid;
-    grid-template-columns:repeat(2 1fr);
+    grid-template-columns:repeat(3 1fr);
     grid-template-rows:1fr;
     height:;
     align-items: center;
     background-color:#000;
     text-align: center;
     align-content: center;
-    background-image: url(../img/fundo.jpg);
+    background-image: url(../img/22.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Francois One', sans-serif;
