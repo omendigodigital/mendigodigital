@@ -55,7 +55,7 @@ background-color: #fff;
   .menu-topo{
 
     display: grid;
-    grid-template-columns:1fr 1fr 1fr 1fr;;
+    grid-template-columns:1fr 1fr 1fr 1fr;
     grid-template-rows:1fr;
     height:50px;
     align-items: center;
@@ -72,11 +72,11 @@ background-color: #fff;
 
   a{text-decoration: none!important; font-weight: bold; color:#fff;}
 
-p{font-size: 14px!important;}
+p{font-size: 16px!important;}
 
   .conteudo-1{
 
-    display:grid;
+    /*display:grid;
     grid-template-columns:repeat(2 , 1fr);
     grid-template-rows:auto;
     background-color: #fff;
@@ -84,7 +84,27 @@ p{font-size: 14px!important;}
     grid-gap:1rem;
     align-content: center;
     padding: 10px;
-    border:1px solid #fff!important;
+    border:1px solid #fff!important;*/
+    /*display: grid;
+    grid-template-columns:repeat(2 1fr);
+    grid-template-rows:2fr;
+    height:;
+    align-items: center;
+    background-color:#fff;
+    text-align: center;
+    align-content: center;
+    font-family: 'Francois One', sans-serif;*/
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows:450px;
+    /*height:50px;*/
+    align-items: center;
+    background-color:#fff;
+    text-align: center;
+    padding: 5px;
+
+
+
 
 
   }
